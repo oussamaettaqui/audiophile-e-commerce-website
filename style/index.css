@@ -1,0 +1,113 @@
+body{
+	font-family: "Manrope", sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+}
+header{
+	width: 100vw;
+	height: 100vh;
+	margin-bottom: 50px;
+	background-image: url("../assets/home/desktop/image-hero.jpg");
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+header .container-header{
+	margin:auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+header h1{
+	color: #ffff;
+}
+header a i{
+	color: #ffff;
+	font-size: 1.3rem;
+}
+header a {
+	text-decoration: none;
+	color: #fff;
+}
+nav {
+	width: 430px;
+	display: flex;
+	gap: 3rem;
+}
+nav a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 13px;
+	font-weight: bold;
+	letter-spacing:2px;
+	text-transform: uppercase;
+}
+.underline{
+	display: block;
+	width: 76%;
+	margin : auto;
+	background-color: #97979797;
+	height: 0.4px;
+	margin-top: 1rem;
+}
+
+/* start main */
+
+main{
+	width: 80%;
+	margin:auto;
+	position: relative;
+}
+
+main .desc{
+	position: absolute;
+	width: 398px;
+	height: 346px;
+	top: 20vh;
+	left: 50px;
+}
+main .desc .new-prod{
+	color: #97979797;
+	font-size: 15px;
+	font-weight: 200;
+	letter-spacing: 10px;
+
+}
+main .desc h1{
+	margin-top: 24px;
+	font-size: 56px;
+	font-weight: bold;
+	color: #fff;
+	letter-spacing: 2px;
+}
+main .desc .description{
+	margin-top: 24px;
+	width: 350px;
+	color: #fAfAfA;
+	font-size: 15px;
+	font-weight: 100;
+	line-height: 2.5;
+	margin-bottom: 40px;
+}
+main .desc .botton{
+	width: 160px;
+	height: 48px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #D87D4A;
+	text-decoration: none;
+	color: #fff;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+main .banner {
+	width: 1000px ;
+	height: 686px;
+	margin: auto;
+
+}
+
+
