@@ -18,11 +18,10 @@ body{
 /* Start header */
 header{
 	width: 100%;
-	/* height: 100vh; */
 	background-color: var(--bg-dark-light);
 }
 .container{
-	width: 1440px;
+	width: 1110px;
 	margin: auto;
 }
 
@@ -108,6 +107,8 @@ section .desc .botton{
 	text-align: center; 
 	line-height: 48px; 
 	margin-top: 40px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 
 section .banner{
@@ -129,54 +130,67 @@ section .banner .product-banner{
 	background-color: var(--bg-white);
  }
  .container-main{
-	width: 1440px;
+	width: 1110px;
 	margin: auto;
 	height: 100vh;
  }
 
  main .container-main .cards{
-	margin-top: 208px;
+	margin-top: 188px;
+	margin-bottom: 168px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	gap: 8rem;
  }
 
- main .cards .card{
+ main .container-main .cards .card{
 	position: relative;
-	width: 28%;
-	height: 204px;
+	width: 350px;
+	height: 220px;
 	background-color: var(--bg-gray-light);
 	border-radius: 8px;
+	
  }
- main .cards .card img{
+ main .container-main .cards .card img{
 	position: absolute;
-	width: 200px;
+	width: 210px;
 	height: 200px;
-	left: 25%;
-	top: -70px;
+	left: 20%;
+	top: -33%;
+	margin: 0;
  }
- main .cards .card p{
+
+ main .container-main .cards .card:nth-child(3) img {
+	width: 230px;
+	height: 210px;
+	position: absolute;
+	left: 18%;
+	top: -28%;
+	
+ }
+ main .container-main .cards .card p{
 	position: absolute;
 	width: 133px;
-	left: 34%;
+	left: 32%;
 	top: 50%;
 	text-transform: uppercase;
 	font-size: 18px;
 	font-weight: bold;
 	letter-spacing: 1.29px;
 	text-align: center;
+	margin-top: 10px ;
  }
- main .cards .card .botton{
+ main .container-main .cards .card .botton{
 	display: flex;
 	align-items: center;
 	position: absolute;
-	left: 45%;
-	top: 75%;
-	gap: 10px;
+	left: 43%;
+	top: 70%;
+	padding: 0;
+	margin-top: 10px;
 	
  }
- main .cards .card .botton a{
+ main .container-main .cards .card .botton a{
 	text-decoration: none;
 	text-transform: uppercase;
 	color: var(--bg-dark-light);
@@ -186,11 +200,78 @@ section .banner .product-banner{
 	
 
  }
- main .cards .card  .botton span{
+ main .container-main .cards .card  .botton span{
 	color: var(--bg-org);
 	font-size: 23px;
 	position: absolute;
 	left: 50px;
 	top: -10px;
 	
+ }
+
+ main .container-main .bg-1{
+	width: 100%;
+	height: 560px;
+	background-color: var(--bg-org);	
+	border-radius: 8px;
+	position: relative;
+	overflow: hidden;
+ }
+ main .container-main .bg-1 svg{
+	position: absolute;
+	left: -14%;
+	top: -50px;
+ }
+ main .container-main .bg-1 .content{
+	width: 81.5%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 10%;
+	
+ }
+
+ main .container-main .bg-1 .content img{
+	width: 410px;
+	height: 439px;
+	margin-top: 128px;
+	z-index: 10;
+	
+ }
+ main .container-main .bg-1 .content .desc{
+	width: 349px;
+	height: 303px;
+ }
+ main .container-main .bg-1 .content .desc h1{
+	width: 261px;
+	margin: 0;
+	color: var(--bg-white);
+	font-size: 56px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+ }
+ main .container-main .bg-1 .content .desc p{
+	margin-top: 14px;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 25px;
+	color: var(--bg-white);
+ }
+
+ main .container-main .bg-1 .content .desc .botton{
+	text-decoration: none;
+	width: 160px;
+	height: 48px;
+	background-color: var(--bg-dark);
+	color: var(--bg-white);
+	font-size: 13px;
+	font-weight: bold;
+	display: inline-block;
+	text-align: center; 
+	line-height: 48px; 
+	margin-top: 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
  }
