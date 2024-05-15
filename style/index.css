@@ -67,11 +67,13 @@ section{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	gap: 80px;
 }
 section .desc{
 	width: 398px;
 	height: 346px;
-	margin-bottom: 178px;
+	margin-bottom: 170px;
+	margin-top: 128px;
 }
 
 section .desc .new-prod{
@@ -112,10 +114,10 @@ section .desc .botton{
 }
 
 section .banner{
-	width: 50%;
+	width: calc(100% - 398px)%;
 }
 section .banner .product-banner{
-	width: 90%;
+	width: 100%;
 	margin-top: 60px;
 	margin-bottom: 60px;
 }
