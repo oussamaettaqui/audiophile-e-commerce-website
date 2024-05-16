@@ -114,7 +114,7 @@ section .desc .botton{
 }
 
 section .banner{
-	width: calc(100% - 398px)%;
+	width: calc(100% - 398px);
 }
 section .banner .product-banner{
 	width: 100%;
@@ -197,7 +197,7 @@ section .banner .product-banner{
 	text-transform: uppercase;
 	color: var(--bg-dark-light);
 	font-size: 13px;
-	font-weight: 300;
+	/* font-weight: 300; */
 	letter-spacing: 1px;
 	
 
@@ -269,11 +269,112 @@ section .banner .product-banner{
 	background-color: var(--bg-dark);
 	color: var(--bg-white);
 	font-size: 13px;
-	font-weight: bold;
+	/* font-weight: bold; */
 	display: inline-block;
 	text-align: center; 
 	line-height: 48px; 
 	margin-top: 30px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+ }
+
+ main .container-main .bg-2{
+	margin-top: 40px;
+	position: relative;
+ }
+
+ main .container-main .bg-2 .img{
+	width: 100%;
+	height: 320px;
+	background-image: url("../assets/home/desktop/image-speaker-zx7.jpg");
+	background-size: cover;
+	border-radius: 8px;
+	
+ }
+
+ main .container-main .bg-2 .content p{
+	font-size: 28px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	position: absolute;
+	left: 80px;
+	top: 80px;
+	color: var(--bg-gray);
+ }
+ main .container-main .bg-2 .content .botton{
+ 	text-decoration: none;
+	width: 160px;
+	height: 48px;
+	border: 1px solid var(--bg-gray);
+	color: var(--bg-gray);
+	font-size: 13px;
+	/* font-weight: bold; */
+	display: inline-block;
+	text-align: center; 
+	line-height: 48px; 
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	position: absolute;
+	left: 80px;
+	top: 185px;
+ }
+
+ main .container-main .bg-2 .content .carre{
+	width: 100px;
+	height: 100px;
+	background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23979797FF' stroke-width='2' stroke-dasharray='10' stroke-dashoffset='4' stroke-linecap='round'/%3e%3c/svg%3e");
+	position: absolute;
+	left: 162px;
+	top: 100px;
+ }
+ main .container-main .bg-3{
+	width: 100%;
+	height: 320px;
+	margin-top: 48px;
+	display: grid; 
+	grid-template-columns: repeat(2, 1fr);
+	gap: 30px;
+ }
+ main .container-main .bg-3 .card-1
+{
+	height: 320px;
+	background-image: url("../assets/home/desktop/image-earphones-yx1.jpg");
+	background-size: contain;
+	border-radius: 8px;
+ }
+
+ main .container-main .bg-3 .card-2{
+	background-color: var(--bg-gray-light);
+	border-radius: 8px;
+	height: 320px;
+	position: relative;
+ }
+ main .container-main .bg-3 .card-2 p{
+	color: var(--bg-dark);
+	text-transform: uppercase;
+	font-size: 28px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	position: absolute;
+	left: 80px;
+	top: 90px;
+ }
+
+ main .container-main .bg-3 .card-2 .botton{
+	text-decoration: none;
+	width: 160px;
+	height: 48px;
+	border: 1px solid var(--bg-dark);
+	color: var(--bg-dark);
+	font-size: 13px;
+	/* font-weight: bold; */
+	display: inline-block;
+	text-align: center; 
+	line-height: 48px; 
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	position: absolute;
+	left: 80px;
+	top: 185px;
  }
